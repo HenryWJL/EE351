@@ -5,11 +5,11 @@ define sort_file
 endef
 
 define find_log
-	@ls ~/python/*.log
+	@find -name *.log
 endef
 
 define delete_lock_file
-	@ls ~/python/*.lock | xargs rm -r
+	@find -name *.lock | xargs rm -r
 endef
 
 demo:
