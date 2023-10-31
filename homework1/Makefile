@@ -5,11 +5,11 @@ define sort_file
 endef
 
 define find_log
-	@find -name *.log
+	@ls /home/wangjl/*.log
 endef
 
 define delete_lock_file
-	@find -name *.lock | xargs rm -r
+	@ls /home/wangjl/*.lock | xargs rm -r
 endef
 
 demo:
