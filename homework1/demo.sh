@@ -42,7 +42,7 @@ do
             ftp $ip
             ;;
         f)
-            python draft.py
+            python3 ../lab2/led.py
             ;;
         g)
             echo "Please input a filename: "
